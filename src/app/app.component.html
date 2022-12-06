@@ -1,0 +1,102 @@
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
+<!-- * * * * * * * to get started with your project! * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+
+<!DOCTYPE html>
+<style>
+    #header{
+        background-color: blueviolet;
+        width: 400px;
+        height: 50px;
+        margin-top: auto;
+        margin-left: 0px;
+    }
+    #marca{
+        color: white;
+        text-align: center;
+    }
+    body{
+        background-color: rgb(227, 171, 238);
+        width: 400px;
+        height: 700px;
+        margin-left: 700px;
+    }
+    #container2{
+        background-color: rgb(102, 8, 165);
+        margin-left: 50px;
+        width: 300px;
+        height: 500px;
+        margin-top: 30px;
+    }
+    #container{
+        background-color: white;
+        margin-left: 15px;
+        width: 270px;
+        height: 450px;
+        margin-top: 0px;
+        border-radius: 10px;
+    }
+    #celular{
+        background-color: black;
+        margin-left: 0px;
+        width: 400px;
+        height: 600px;
+        margin-top: 10px;
+        border-radius: 20px;
+    }
+    #titulo{
+        text-decoration: overline;
+        color: rgb(102, 37, 206);
+        text-align: center;
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    #resposta{
+        margin-left: 20px;
+    }
+</style>
+<body>
+    <div id="header"></div>
+    <div id="celular">
+        <div id="marca">
+        <b style="font-size:25px;">SAMSUNG</b>
+        </div>
+        <div id="container2">
+            <p style="color:rgb(102, 8, 165) ; height: 0px;">.</p>
+    <div id="container">
+    <div id="titulo">
+        <p>CADASTRO</p>
+    </div>
+    <div id="resposta">
+    <form action="/action_page.php">
+        <label for="fname">Nome: </label>
+        <input type="text" style="width:170px ;" id="fname" name="fname"><br><br>
+        <label for="lname">Email: </label>
+        <input type="text" style="width:170px ;" id="lname" name="lname"><br><br>
+        <label for="fname">Sexualidade: </label>
+        <input type="text" style="width:130px ;" id="fname" name="fname"><br><br>
+        <label for="lname">Idade: </label>
+        <input type="text" style="width:170px ;" id="lname" name="lname"><br><br>
+        <label for="fname">CPF: </label>
+        <input type="text" style="width:180px ;" id="fname" name="fname"><br><br>
+        <label for="lname">Senha: </label>
+        <input type="text" style="width:170px ;" id="lname" name="lname"><br><br>
+        <label for="lname">Confirmar Senha: </label>
+        <input type="text" style="width:100px ;" id="lname" name="lname"><br><br>
+        <label for="lname">Gênero: </label>
+        <input type="text" style="width:160px ;" id="lname" name="lname"><br><br>
+        <input type="submit" style="color: blueviolet; margin-left:80px ;" value="Cadastrar">
+      </form>
+    </div>
+    </div>
+    </div>
+    </div>
+</body>
+
+<router-outlet></router-outlet>
